@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #00853e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    width: 300px;
+    height: 400px;
+    background-color: #242628;
+    border-radius: 12px;
+    margin-top: 100px;
+}
+.img{
+    background-image:url(./mangger/shiba.jpg);
+    width: 120px;
+    height: 120px;
+   
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    transform: translateX(70%);
+    margin-top: 30px;
+    background-size: cover;
+    border-color: violet;
+    border: 3px solid #f2726a;
+}
+h2{
+    text-align: center;
+    margin-top: 16px;
+}
+p{
+    text-align: center;
+    font-size: 28px;
+    color: #f2726a;
+}
+.card_social{
+    margin-top: 32px;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+}
+.card_social a{
+    color: white;
+    text-decoration: none;
+}
+.card_social a:hover{
+    color: #f2726a;
+    transform: scale(1.8);
+}
+.img_fpoly{
+    width: 200px;
+    height: 350px;
+    margin-top: 20px;
+    transform: translateX(50px);
+    background-image: url(./mangger/fpoly-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
